@@ -1,4 +1,4 @@
-# Instructions
+# Preview
 A simple but very efficient Keylogger program!\
 On execution, it secretly runs and saves everything the user types in a file, called "keys.log".\
 Then, it sends an email with a specified delay to a specific email address with this file attached!\
