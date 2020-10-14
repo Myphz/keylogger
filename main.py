@@ -11,9 +11,9 @@ import time
 def send_email():
 	port = 587
 	smtp_server = "smtp.gmail.com"
-	sender_email = "pythontestapp12@gmail.com"
-	receiver_email = "danielscanu45@outlook.it"
-	password = "pythontestapp47"
+	sender_email = ""
+	receiver_email = ""
+	password = ""
 	context = ssl.create_default_context()
 	message = MIMEMultipart()
 	message["From"] = sender_email
