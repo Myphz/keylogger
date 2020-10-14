@@ -6,7 +6,7 @@ The user can't detect any of this as it runs secretly in background; the victim 
 ### **Please, do not use this to harm other people. _I do not take responsibility for any damage caused with this file._**
 
 ## Usage
-To make this work, you have to install all the dependencies and manually change lines 14, 15 and 16, with the sender's email, receiver's email (gmail) and sender's email's password respectively.\
+To make this work, you have to install all the dependencies and manually change lines 14, 15 and 16, with the sender's email (gmail, or change the smtp_server variable), receiver's email and sender's email's password respectively.\
 You can also change the delay between each e-mail by modifying line 41 and replacing the function's argument to your desired time in seconds (10 minutes default).
 
 ## Dependencies
