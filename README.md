@@ -4,7 +4,7 @@ On execution, it secretly runs and saves everything the user types in a file, ca
 Then, it sends an email with a specified delay to a specific email address with this file attached!\
 The user can't see any of this as it runs secretly in background: the user has to manually kill the process with task manager or reboot the pc to stop this.
 
-### **Note: please, don't use this to harm other people. _I do not take responsibility for the harm caused with this file_**
+### **Note: please, don't use this to harm other people. _I do not take responsibility for damage caused with this file_**
 
 ## Usage
 To make this work, you have to install all the dependencies and manually change lines 14, 15 and 16, with the sender's email, receiver's email and sender's email's password respectively.\
