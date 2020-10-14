@@ -14,6 +14,6 @@ You can also change the delay between each e-mail by modifying line 41 and repla
 - PyInstaller *(to convert it to an executable file. ```pip install pyinstaller```)*
 
 ## How to convert it to an exe file
-Install the latest version of PyInstaller. Run the command prompt in the same folder as the main.py file and simply type this command on the cmd ```pyinstaller --onefile -w main.py```\
+Install the latest version of PyInstaller. Run the command prompt in the same folder as the main.py file and simply type this on the cmd: ```pyinstaller --onefile -w main.py```\
 Go to the new created directory "dist" and you'll see your desired .exe file with every dependency in it, so it can be executed on any computer!\
 Sent it to prank your friends!
