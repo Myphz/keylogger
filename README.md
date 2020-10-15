@@ -7,8 +7,8 @@ The user can't detect any of this as it runs secretly in background; the victim 
 
 ## Usage
 To make this work, you have to install all the dependencies and manually change lines 14, 15 and 16, with the sender's email (gmail, or change the smtp_server variable), receiver's email and sender's email's password respectively.\
-*If you use gmail, you might need to enable the "Allow less secure apps" option in your google account, in order to allow this script to log-in your account.*\
-You can also change the delay between each e-mail by modifying line 41 and replacing the function's argument to your desired time in seconds (10 minutes default).
+You can also change the delay between each e-mail by modifying line 41 and replacing the function's argument to your desired time in seconds (10 minutes default).\\
+*If you use gmail, you might need to enable the "Allow less secure apps" option in your google account, in order to allow this script to log-in your account.*
 
 ## Dependencies
 - Pynput *(important: install version 1.6.8, as the newest version has troubles running with PyInstaller. You can install it with ```pip install pynput=1.6.8```)*
