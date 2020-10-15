@@ -11,7 +11,7 @@ You can also change the delay between each e-mail by modifying line 41 and repla
 *If you use gmail, you might need to enable the "Allow less secure apps" option in your google account, in order to allow this script to log-in your account.*
 
 ## Dependencies
-- Pynput *(important: install version 1.6.8, as the newest version has troubles running with PyInstaller. You can install it with ```pip install pynput=1.6.8```)*
+- Pynput *(important: install version 1.6.8, as the newest version has troubles running with PyInstaller. You can install it with ```pip install pynput==1.6.8```)*
 - PyInstaller *(to convert it to an executable file. ```pip install pyinstaller```)*
 
 ## How to convert it to an exe file
